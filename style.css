@@ -1,0 +1,54 @@
+html{
+    background-image: url(./clouds.jpg);
+    background-size:cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color:white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.search-container{
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius:10px;
+    padding: 5px;
+    font-weight:bold;
+}
+
+.submit{
+    height:40px;
+    border-radius:15px;
+}
+
+.submit:hover{
+    background-color: grey;
+}
+
+.data-container{
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+.region{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+}
+
+.region-details{
+    font-size: 25px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
